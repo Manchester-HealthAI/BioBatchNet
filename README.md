@@ -97,7 +97,7 @@ The **IMC dataset** can be accessed from the **Bodenmiller Group IMC datasets re
 
 ## To Do List
 
-- [✅] Data download link
+- [x] Data download link
 - [ ] Checkpoint
 - [ ] Benchmark method results
 
