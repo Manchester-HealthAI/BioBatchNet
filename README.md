@@ -61,7 +61,6 @@ To process **scRNA-seq** data, modify the dataset, network layers, and other par
 python Gene.py -c config_gene.yaml
 ```
 
----
 ## CPC Usage
 
 CPC utilizes the **embedding output from BioBatchNet** as input. The provided sample data consists of the **batch effect corrected embedding of IMMUcan IMC data**.
@@ -78,7 +77,6 @@ cd CPC/IMC_experiment
 - Sample data includes batch-corrected IMMUcan IMC embeddings.  
 - Ensure the **same computational environment** as BioBatchNet before running CPC.  
 
----
 ## 📂 Data Download Link
 
 To use BioBatchNet for **batch effect correction**, you need to download the corresponding dataset and place it in the appropriate directory.
