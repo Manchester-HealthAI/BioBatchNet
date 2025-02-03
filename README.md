@@ -4,7 +4,7 @@
 
 ### Clone the Repository
 
-First, clone the repository to your local machine:
+Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/Manchester-HealthAI/BioBatchNet](https://github.com/Manchester-HealthAI/BioBatchNet
@@ -44,7 +44,7 @@ mv <your-scrna-dataset> Data/gene_data/
 
 ### Batch effect correction
 
-### **For IMC Data**
+**For IMC Data**
 To process **IMC** data, modify the dataset, network layers, and other parameters in `config_imc.yaml`, then run the following command to train BioBatchNet:
 ```bash
 python IMC.py -c config_imc.yaml
@@ -56,7 +56,7 @@ Sample IMC data is provided in the `Data/IMC` directory. You can directly test t
 python IMC.py -c config_imc.yaml
 ```
 
-### **For scRNA-seq Data**
+**For scRNA-seq Data**
 To process **scRNA-seq** data, modify the dataset, network layers, and other parameters in `config_gene.yaml`, then run the following command to train BioBatchNet:
 ```bash
 python Gene.py -c config_gene.yaml
@@ -97,7 +97,7 @@ The **IMC dataset** can be accessed from the **Bodenmiller Group IMC datasets re
 
 ## To Do List
 
-- [ ] Data download link
+- [✅] Data download link
 - [ ] Checkpoint
 - [ ] Benchmark method results
 
