@@ -56,15 +56,13 @@ Sample IMC data is provided in the `Data/IMC` directory. You can directly test t
 python IMC.py -c config_imc.yaml
 ```
 
----
-
 ### **For scRNA-seq Data**
 To process **scRNA-seq** data, modify the dataset, network layers, and other parameters in `config_gene.yaml`, then run the following command to train BioBatchNet:
 ```bash
 python Gene.py -c config_gene.yaml
 ```
 
-
+---
 ## CPC Usage
 CPC uses the embedding of BioBatchNet as the input, and the sample data which is the batch effect corrected embedding of IMMUcan IMC data.
 Using the same environments with BioBatchNet, and all the results can be found in the following directory:
