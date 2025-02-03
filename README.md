@@ -1,6 +1,5 @@
 # BioBatchNet
 
-![IMC Pipeline](workflow.pdf)
 ## Installation
 
 ### Clone the Repository
