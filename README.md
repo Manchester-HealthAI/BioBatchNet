@@ -79,6 +79,16 @@ cd CPC/IMC_experiment
 - Sample data includes batch-corrected IMMUcan IMC embeddings.  
 - Ensure the **same computational environment** as BioBatchNet before running CPC.  
 
+--
+## 📂 Data Download Link
+
+To use BioBatchNet for **batch effect correction**, you need to download the corresponding dataset and place it in the appropriate directory.
+
+### **🔹 Download scRNA-seq Data**
+The **scRNA-seq dataset** is available on OneDrive. Click the link below to download:
+
+🔗 [Download scRNA-seq Data](https://livemanchesterac-my.sharepoint.com/:f:/g/personal/haiping_liu_student_manchester_ac_uk/Ep189brW69lJtv4ugZ9QdlkBx23hoFJWbTps_nK9LjZkyw?e=Iz9hOJ)
+
 
 
 ## To Do List
