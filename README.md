@@ -1,7 +1,6 @@
 # BioBatchNet
 
 ## Installation
-
 ### Clone the Repository
 
 Clone the repository to your local machine:
