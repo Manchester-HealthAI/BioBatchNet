@@ -64,12 +64,22 @@ python Gene.py -c config_gene.yaml
 
 ---
 ## CPC Usage
-CPC uses the embedding of BioBatchNet as the input, and the sample data which is the batch effect corrected embedding of IMMUcan IMC data.
-Using the same environments with BioBatchNet, and all the results can be found in the following directory:
+
+CPC utilizes the **embedding output from BioBatchNet** as input. The provided sample data consists of the **batch effect corrected embedding of IMMUcan IMC data**.
+
+To use CPC, ensure you are running in the **same environment** as BioBatchNet.  
+All experiment results can be found in the following directory:
 
 ```bash
 cd CPC/IMC_experiment
 ```
+
+✅ **Key Notes**:  
+- CPC requires embeddings from BioBatchNet as input.  
+- Sample data includes batch-corrected IMMUcan IMC embeddings.  
+- Ensure the **same computational environment** as BioBatchNet before running CPC.  
+
+
 
 ## To Do List
 
